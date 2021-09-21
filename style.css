@@ -105,7 +105,7 @@ nav .logo {
 }
 
 .hero img {
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: 100px;
   width: 600px;
 }
@@ -146,6 +146,19 @@ nav .logo {
   font-size: 18px;
   /* letter-spacing: 1.1px; */
   line-height: 1.4;
+}
+
+.content-container ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.content-container ul li {
+  margin-bottom: 15px;
+}
+
+ol li {
+  margin-top: 7.5px;
 }
 
 @media (max-width: 1150px) {
