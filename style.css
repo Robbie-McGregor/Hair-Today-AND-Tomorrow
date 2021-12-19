@@ -131,6 +131,11 @@ nav .logo {
   text-decoration: underline;
 }
 
+h3{
+  margin-top: 50px;
+  font-size: 18px;
+}
+
 .content-container.video{
   position: relative;
   padding-bottom: 50px;
