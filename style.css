@@ -128,10 +128,23 @@ nav .logo {
 }
 
 .content-container.video{
+  position: relative;
+  padding-bottom: 50px;
+  /* padding-top: 30px; */
+  /* overflow: hidden; */
   text-align: center;
-  margin-bottom: 150px;
-  width: 100vw;
+  max-width: 1200px;
 }
+
+.content-container.video iframe, .content-container.video object, .content-container.video embed{
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(50vw + 50px);
+  max-height: 750px;
+}
+
 
 .content-container {
   max-width: 800px;
