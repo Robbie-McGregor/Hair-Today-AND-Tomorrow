@@ -69,6 +69,10 @@ nav ul {
   list-style-type: none;
 }
 
+nav .logo img {
+  height: 80px;
+}
+
 nav .logo a {
   text-decoration: none;
   color: var(--main-color);
@@ -212,6 +216,12 @@ ol li {
     padding-top: 25px;
     padding-bottom: 25px;
   }
+
+  
+nav .logo {
+  text-align: center;
+}
+
 
   nav ul {
     flex-direction: column;
