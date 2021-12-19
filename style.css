@@ -35,6 +35,8 @@ nav {
 footer {
   background-color: var(--bg-color);
   height: 60px;
+  position: fixed;
+  bottom: 0px;
   width: 100vw;
 }
 
@@ -125,10 +127,10 @@ nav .logo {
   text-decoration: underline;
 }
 
-.video{
+.content-container.video{
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
+  width: 100vw;
 }
 
 .content-container {
