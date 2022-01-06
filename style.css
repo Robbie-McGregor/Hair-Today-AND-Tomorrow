@@ -136,9 +136,34 @@ h3{
   font-size: 18px;
 }
 
+figure{
+  margin-bottom: 75px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption{
+  text-align: center;
+  font-size: 14px;
+  padding-top: 4.5px;
+  /* font-style: italic; */
+}
+
+q{
+  font-style: italic;
+}
+
+.image{
+  max-width: 75%;
+  max-height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content-container.video{
   position: relative;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   /* padding-top: 30px; */
   /* overflow: hidden; */
   text-align: center;
@@ -222,7 +247,12 @@ ol li {
     padding-bottom: 25px;
   }
 
-  
+
+  .image{
+    max-width: 95%;
+    max-height: 500px;
+  }
+
 nav .logo {
   text-align: center;
 }
