@@ -194,6 +194,10 @@ q{
   margin-right: auto;
 }
 
+.reduce-bottom-margin{
+margin-bottom: 10px;
+}
+
 .content-container h1 {
   text-align: center;
   font-size: 30px;
