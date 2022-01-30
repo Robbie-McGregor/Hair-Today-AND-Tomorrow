@@ -223,8 +223,8 @@ q{
 
 
 .video-grid{
-  margin-top: 80px;
-  max-width: 1700px;
+  margin-top: 75px;
+  max-width: 1200px;
   width: 90%;
   margin-bottom: 75px;
   margin-left: auto;
@@ -239,7 +239,6 @@ q{
 
 .video-sidebar{
   background-color: var(--main-color);
-  background-color: rgba(243, 142, 79, 0.788);
   border-radius: 20px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
